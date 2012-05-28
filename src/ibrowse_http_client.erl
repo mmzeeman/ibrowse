@@ -1798,7 +1798,7 @@ cancel_timer(Ref, {eat_message, Msg}) ->
     end.
 
 make_req_id() ->
-    now().
+    make_ref().
 
 to_lower(Str) ->
     to_lower(Str, []).

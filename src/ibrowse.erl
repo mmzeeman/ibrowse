@@ -159,7 +159,7 @@ stop() ->
 %% headerName() = string()
 %% headerValue() = string()
 %% response() = {ok, Status, ResponseHeaders, ResponseBody} | {ibrowse_req_id, req_id() } | {error, Reason}
-%% req_id() = term()
+%% req_id() = reference()
 %% ResponseBody = string() | {file, Filename}
 %% Reason = term()
 send_req(Url, Headers, Method) ->
